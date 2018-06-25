@@ -9,3 +9,13 @@ apt-get install -y awscli google-chrome-stable nodejs python-pip
 pip install pygments-monokai-hcb
 
 npm install -g bower gulp-cli
+
+# Build theme
+
+cd ${repo_dir}/themes/hugo-hcb-personal
+
+npm install
+bower install --allow-root
+gulp
+
+cd /tmp
