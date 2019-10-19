@@ -1,7 +1,7 @@
 module "hugo_site" {
   source = "github.com/handcraftedbits/terraform-modules//hugo_site"
 
-  ami                          = "ami-aa2ea6d0"
+  ami                          = "ami-00eb20669e0990cb4"
   cloudfront_price_class       = "PriceClass_100"
   github_secret_parameter_name = "/curtisshoward.com/webhooks/rebuild/github-secret"
   git_repo                     = "https://github.com/handcraftedbits/curtisshoward.com.git"
