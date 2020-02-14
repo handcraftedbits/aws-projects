@@ -12,3 +12,4 @@ module "hugo_site" {
   site_name                    = "curtisshoward.com"
   tag_name                     = "project"
 }
+
